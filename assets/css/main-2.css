@@ -266,12 +266,13 @@
 }
 .project-content-area .project-wrapper {
 	background: var(--tj-bg-3);
-	padding: 25px 25px 0 25px;
+	padding: 0px 0px 0px 0px;
 	border-radius: 10px;
 	height: 348px;
 	display: inline-flex;
 	align-items: end;
 	justify-content: center;
+	overflow: hidden;
 }
 .project-content-area .project-wrapper img {
 	height: 100%;
