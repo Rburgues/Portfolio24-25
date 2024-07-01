@@ -7,11 +7,14 @@
   $mensaje = trim($_POST['conMessage']);
   
   $consulta = "E-mail: " . $email . "Nombre: " . $nombre . "Telefono: " . $phone . "Mensaje: " . $mensaje;
-  
-  mail("contacto@richardrburgues.com", "Contacto desde la web", $consulta);
+  $recipient = "rsebaburgues@gmail.com";
+  $asunto = "Contacto desde la web";
+
+  mail($recipient, $asunto, $consulta);
   } else {
   echo "Error al enviar";
   }
-  header('Location: https://http://127.0.0.1:5500/#message_sent');
+  header('Location: https://richardburgues.com/#message_sent');
   end();
   ?>
+

@@ -1416,6 +1416,9 @@ body.loaded {
 .portfolio-box .image-box {
 	text-align: center;
 }
+.project-client{
+	border-radius: 50%;
+}
 .portfolio-box .content-box {
 	position: absolute;
 	bottom: 15px;
@@ -1606,10 +1609,14 @@ body.loaded {
 	transform: rotate(180deg);
 }
 .popup_modal_img {
-	padding: 50px 40px 0 40px;
+	padding: 10px 10px 0 10px;
 	text-align: center;
 	max-height: 670px;
 	overflow: hidden;
+}
+.youtube-modal{
+	width: 100%;
+	height: 600px;
 }
 .popup_modal_img img {
 	height: 100%;
@@ -1618,7 +1625,7 @@ body.loaded {
 }
 .popup_modal_content {
 	background-color: var(--tj-white);
-	padding-top: 60px;
+	padding-top: 20px;
 }
 .popup_modal_content .portfolio_info {
 	display: -webkit-box;
