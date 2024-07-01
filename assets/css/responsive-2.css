@@ -239,6 +239,7 @@
 	/* specialization */
 	.specialization-section {
 		padding-bottom: 55px;
+		text-align: center;
 	}
 	.specialization-item .specialization-content {
 		padding: 15px 15px 30px;
@@ -277,9 +278,17 @@
 		align-items: start;
 		padding: 30px 20px;
 		gap: 30px;
+		text-align: center;
 	}
 	.contact-info-list-2 {
 		max-width: 100%;
+	}
+	.contact-info-list-3 {
+		display: flex;
+		flex-direction: column;
+		row-gap: 25px;
+		max-width: 100%;		
+		width: 100%;
 	}
 	.contact-content-area .form_group textarea {
 		height: 150px;
