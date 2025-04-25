@@ -2993,6 +2993,10 @@ blockquote cite::before {
 .contact-info-list .text-box a:hover {
 	color: var(--tj-theme-primary);
 }
+.logowpp{
+	width: 50%;
+	height: 50%;
+}
 /* END: Contact Section */
 
 /*
