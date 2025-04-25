@@ -274,7 +274,7 @@
 	}
 	/* contact */
 	.contact-content-area {
-		flex-direction: column;
+		flex-direction: column-reverse;
 		align-items: start;
 		padding: 30px 20px;
 		gap: 30px;
